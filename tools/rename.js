@@ -1,0 +1,11 @@
+'use strict';
+const fs = require('fs');
+let c = fs.readFileSync('_config.yml', 'utf8');
+c = c.replace(/^title: .*$/m, 'title: 轩的博客');
+c = c.replace(/^author: .*$/m, 'author: 轩');
+fs.writeFileSync('_config.yml', c, 'utf8');
+let p = fs.readFileSync('source/_posts/first-post.md', 'utf8');
+p = p.replace('我是 Xuan，', '我是轩，');
+fs.writeFileSync('source/_posts/first-post.md', p, 'utf8');
+console.log(c.split('\n').filter(l => /^(title|author):/.test(l)).join(' | '));
+console.log('post =', p.includes('我是轩'));
