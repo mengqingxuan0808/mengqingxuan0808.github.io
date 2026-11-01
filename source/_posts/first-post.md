@@ -6,7 +6,7 @@ tags:
   - 随笔
 categories:
   - 生活
-description: 这是这个博客的第一篇文章，也是我留给自己的自留地。
+description: 记录自己的日常折腾还有繁杂琐事。
 ---
 
 ## 关于我
