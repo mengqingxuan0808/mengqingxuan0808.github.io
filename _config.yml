@@ -104,3 +104,10 @@ deploy:
   type: git
   repo: git@github.com:mengqingxuan0808/mengqingxuan0808.github.io.git
   branch: gh-pages
+
+# hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
