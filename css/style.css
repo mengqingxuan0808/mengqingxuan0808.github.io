@@ -341,7 +341,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/banner.jpg") center #000;
+  background: url("/images/banner.jpg") center #000;
   background-size: cover;
   z-index: -1;
 }
@@ -1344,3 +1344,6 @@ pre .javascript .function {
   margin-right: 5px;
   display: inline-block;
 }
+/* banner: webp for modern browsers, jpeg fallback */
+#banner{background-image:image-set(url("/images/banner.webp") type("image/webp"),url("/images/banner.jpg") type("image/jpeg"))}
+#banner{background-image:-webkit-image-set(url("/images/banner.webp") 1x,url("/images/banner.jpg") 1x)}
