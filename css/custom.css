@@ -1,0 +1,116 @@
+/* 站点自定义样式 */
+
+/* 1) 关闭首页横幅的 fixed 视差，让整幅图完整显示 */
+#page-header.full_page {
+  background-attachment: scroll !important;
+}
+
+/* 2) 首页大标题进场动画：淡入 + 上浮 + 轻微去模糊 */
+#page-header #site-title {
+  animation: siteTitleIn 1.2s cubic-bezier(.22, .61, .36, 1) both;
+}
+
+@keyframes siteTitleIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(8px);
+    letter-spacing: .12em;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+    letter-spacing: 0;
+  }
+}
+
+/* 3) 导航栏和滚动提示稍晚一点出现，形成层次 */
+#page-header #site-subtitle,
+#page-header #scroll-down {
+  animation: fadeInLate 1s ease .35s both;
+}
+
+@keyframes fadeInLate {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 4) 尊重系统「减少动态效果」设置 */
+@media (prefers-reduced-motion: reduce) {
+  #page-header #site-title,
+  #page-header #site-subtitle,
+  #page-header #scroll-down {
+    animation: none !important;
+  }
+}
+/* 5) 移动端：顶部横幅是深色，主题默认给汉堡菜单用了深色字，几乎看不见 */
+@media (max-width: 768px) {
+  #page-header:not(.nav-fixed) #nav #toggle-menu,
+  #page-header:not(.nav-fixed) #nav #toggle-menu .site-page {
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .35);
+  }
+}
+/* 6) 移动端强制显示汉堡菜单（主题在小屏把它 display:none 了） */
+@media (max-width: 768px) {
+  #page-header #nav #toggle-menu {
+    display: inline-block !important;
+    color: #fff !important;
+    opacity: 1 !important;
+  }
+  #page-header #nav #toggle-menu .site-page { color: #fff !important; }
+}
+/* 7) 移动端浮动菜单按钮 */
+#mobile-nav-btn {
+  display: none;
+  position: fixed;
+  left: 16px;
+  bottom: 96px;
+  z-index: 101;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .42);
+  color: #fff;
+  font-size: 16px;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  transition: background .25s ease, transform .25s ease;
+}
+
+#mobile-nav-btn:hover { background: rgba(0, 0, 0, .58); transform: scale(1.05); }
+
+@media (max-width: 768px) {
+  #mobile-nav-btn { display: block; }
+}
+/* 8) 导航栏左上角的站名，同样逐渐出现（比大标题稍晚、幅度更小） */
+#page-header #nav #blog-info .site-name,
+#page-header #nav #blog-info .site-icon {
+  animation: navTitleIn 1s cubic-bezier(.22, .61, .36, 1) .15s both;
+}
+
+@keyframes navTitleIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #page-header #nav #blog-info .site-name,
+  #page-header #nav #blog-info .site-icon {
+    animation: none !important;
+  }
+}

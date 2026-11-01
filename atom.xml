@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>轩</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://mengqingxuan0808.github.io/</id>
+  <link href="https://mengqingxuan0808.github.io/" rel="alternate"/>
+  <link href="https://mengqingxuan0808.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 轩</rights>
+  <subtitle>记录 · 折腾 · 写点东西</subtitle>
+  <title>轩的博客</title>
+  <updated>2026-11-01T05:40:00.000Z</updated>
+  <entry>
+    <author>
+      <name>轩</name>
+    </author>
+    <category term="随笔" scheme="https://mengqingxuan0808.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    <content>
+      <![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>我是轩，一名普通的高中生。</p><h2 id="为什么开始写博客"><a href="#为什么开始写博客" class="headerlink" title="为什么开始写博客"></a>为什么开始写博客</h2><p>一个自己的秘密空间哦。</p><p>真的是天马星空，Just do it.</p><h2 id="技术栈备忘"><a href="#技术栈备忘" class="headerlink" title="技术栈备忘"></a>技术栈备忘</h2><p>站点是 Hexo + Butterfly，托管在 GitHub Pages</p><h2 id="总开始-2026-11-1"><a href="#总开始-2026-11-1" class="headerlink" title="总开始 2026 11 1"></a>总开始 2026 11 1</h2>]]>
+    </content>
+    <id>https://mengqingxuan0808.github.io/2026/11/01/first-post/</id>
+    <link href="https://mengqingxuan0808.github.io/2026/11/01/first-post/"/>
+    <published>2026-11-01T05:40:00.000Z</published>
+    <summary>记录自己的daily life.</summary>
+    <title>My first word</title>
+    <updated>2026-11-01T05:40:00.000Z</updated>
+  </entry>
+</feed>
