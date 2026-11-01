@@ -5,8 +5,8 @@
 # Site
 title: 轩的博客
 subtitle: 记录 · 折腾 · 写点东西
-description: ''
-keywords:
+description: 轩的个人博客，记录高中日常与那些冒出来的奇思妙想。
+keywords: 轩, 博客, 高中生, 日常, 随笔
 author: 轩
 language: zh-CN
 timezone: ''
@@ -111,3 +111,13 @@ search:
   field: post
   format: html
   limit: 10000
+
+# RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+# sitemap
+sitemap:
+  path: sitemap.xml

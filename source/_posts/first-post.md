@@ -1,26 +1,26 @@
 ---
-title: 开张 · 记录折腾与日常
+title: My first word
 date: 2026-11-01 13:40:00
 updated: 2026-11-01 13:40:00
 tags:
   - 随笔
-categories:
-  - 生活
-description: 记录自己的日常折腾还有繁杂琐事。
+description: 记录自己的daily life.
 ---
 
 ## 关于我
 
 我是轩，一名普通的高中生。
 
-- **生活碎片**：不为了给谁看，就是留个记录
+## 为什么开始写博客
 
-## 为什么又开始写博客
+一个自己的秘密空间哦。
 
-记录自己的日常折腾还有繁杂琐事
+真的是天马星空，Just do it.
 
 ## 技术栈备忘
 
-站点是 Hexo + Butterfly，托管在 GitHub Pages，源码同时备份在 Gitee。
+站点是 Hexo + Butterfly，托管在 GitHub Pages
+
+## 总开始 2026 11 1
 
 
