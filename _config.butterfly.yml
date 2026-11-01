@@ -452,7 +452,7 @@ busuanzi:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use: local_search
+  use:
   per_page: true
   hide_scrollbar: false
 
@@ -471,9 +471,9 @@ math:
 # --------------------------------------
 
 search:
+  use: local_search
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
   placeholder:
 
   # Algolia Search
