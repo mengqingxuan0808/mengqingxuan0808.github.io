@@ -1,0 +1,11 @@
+# NexT 主题配置（站点级覆盖）
+scheme: Pisces
+darkmode: false
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+sidebar:
+  position: left
+  display: always
