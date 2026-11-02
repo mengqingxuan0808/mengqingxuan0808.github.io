@@ -220,9 +220,7 @@
 <p>典型模型：挡板缓慢转动把球压在墙上；绳绕过定滑轮缓慢拉动物体。</p>
 <h3 id="类型-2：相似三角形法"><a href="#类型-2：相似三角形法" class="headerlink" title="类型 2：相似三角形法"></a>类型 2：相似三角形法</h3><p><strong>特征</strong>：力的三角形和题目里的几何三角形「长得像」——三组边分别平行。</p>
 <p><strong>做法</strong>：找出对应关系，用比例式把「力」换算成「长度」：</p>
-<blockquote>
-<p>F₁ &#x2F; L₁ &#x3D; F₂ &#x2F; L₂ &#x3D; mg &#x2F; L₃</p>
-</blockquote>
+<p>$$\frac{F_1}{L_1} &#x3D; \frac{F_2}{L_2} &#x3D; \frac{mg}{L_3}$$</p>
 <p>于是「力怎么变」变成「这段线怎么变」，几何直观直接给答案。</p>
 <p>典型模型：光滑球面上用绳系住小球、杆靠在墙上、绳跨滑轮两端挂物。</p>
 <h3 id="类型-3：辅助圆法（两力夹角不变）"><a href="#类型-3：辅助圆法（两力夹角不变）" class="headerlink" title="类型 3：辅助圆法（两力夹角不变）"></a>类型 3：辅助圆法（两力夹角不变）</h3><p><strong>特征</strong>：一个力恒定（通常是 mg），另外两个力的<strong>夹角保持不变</strong>，只是整体在转。</p>
@@ -232,8 +230,8 @@
 <h3 id="类型-4：解析法（列函数求极值）"><a href="#类型-4：解析法（列函数求极值）" class="headerlink" title="类型 4：解析法（列函数求极值）"></a>类型 4：解析法（列函数求极值）</h3><p><strong>特征</strong>：角度连续变化，问「最小拉力」「力的变化规律」，或要定量关系。</p>
 <p><strong>做法</strong>：正交分解，写出力与角度的函数关系，再用数学求极值。常见结论：</p>
 <ul>
-<li>拉物体沿水平面匀速前进，拉力与水平方向夹角 θ 满足 tanθ &#x3D; μ 时最省力；</li>
-<li>斜面上恰好不下滑 &#x2F; 不上滑的临界条件是 tanθ &#x3D; μ。</li>
+<li>拉物体沿水平面匀速前进，拉力与水平方向夹角 $\theta$ 满足 $\tan\theta &#x3D; \mu$ 时最省力；</li>
+<li>斜面上恰好不下滑 &#x2F; 不上滑的临界条件是 $\tan\theta &#x3D; \mu$。</li>
 </ul>
 <h3 id="类型-5：整体法与隔离法"><a href="#类型-5：整体法与隔离法" class="headerlink" title="类型 5：整体法与隔离法"></a>类型 5：整体法与隔离法</h3><p><strong>特征</strong>：两个及以上物体一起缓慢移动（叠放、通过绳或杆连接）。</p>
 <p><strong>做法</strong>：</p>
@@ -253,15 +251,15 @@
 </thead>
 <tbody><tr>
 <td>接触面刚要分离</td>
-<td>N &#x3D; 0</td>
+<td>$N &#x3D; 0$</td>
 </tr>
 <tr>
 <td>刚要相对滑动</td>
-<td>f &#x3D; μN（静摩擦取最大值）</td>
+<td>$f &#x3D; \mu N$（静摩擦取最大值）</td>
 </tr>
 <tr>
-<td>绳刚要松弛 &#x2F; 刚要断</td>
-<td>T &#x3D; 0 &#x2F; T &#x3D; T最大</td>
+<td>绳刚要松弛 &#x2F; 刚要断开</td>
+<td>$T &#x3D; 0$ &#x2F; $T &#x3D; T_{\max}$</td>
 </tr>
 </tbody></table>
 <p>把临界条件代入平衡方程，解出来的就是临界值。</p>
@@ -273,13 +271,11 @@
 <p><strong>受力分析</strong>：小球受三个力——重力 mg（竖直向下）、绳的拉力 T（沿绳指向 A）、球面支持力 N（沿半径向外）。三个力平衡，构成闭合三角形。</p>
 <p><strong>找相似</strong>：设球心为 O。几何三角形 O-A-P（P 为小球位置）三边为 OA &#x3D; R、OP &#x3D; R、AP &#x3D; L；而三个力分别平行于这三条边，所以力三角形与几何三角形相似。</p>
 <p><strong>列比例</strong>：</p>
-<blockquote>
-<p>T &#x2F; L &#x3D; N &#x2F; R &#x3D; mg &#x2F; R</p>
-</blockquote>
+<p>$$\frac{T}{L} &#x3D; \frac{N}{R} &#x3D; \frac{mg}{R}$$</p>
 <p><strong>结论</strong>：</p>
 <ul>
-<li>N &#x3D; mg，<strong>支持力保持不变</strong>；</li>
-<li>T &#x3D; mg·L &#x2F; R，绳变短时 <strong>T 随之减小</strong>。</li>
+<li>$N &#x3D; mg$，<strong>支持力保持不变</strong>；</li>
+<li>$T &#x3D; \dfrac{mgL}{R}$，绳变短时 <strong>T 随之减小</strong>。</li>
 </ul>
 <p>这类题如果硬算角度，会写出一堆三角函数；用相似三角形两三行就完了。</p>
 <h2 id="四、通用解题流程"><a href="#四、通用解题流程" class="headerlink" title="四、通用解题流程"></a>四、通用解题流程</h2><ol>
@@ -301,4 +297,83 @@
 </ul>
 <hr>
 <p>动态平衡的题，模型就那么几种，认出来之后剩下的都是画图和比例。建议把上面七类的「特征」抄在一张卡片上，做题前先对号入座。</p>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://mengqingxuan0808.github.io">轩</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://mengqingxuan0808.github.io/2026/11/02/physics-dynamic-equilibrium/">https://mengqingxuan0808.github.io/2026/11/02/physics-dynamic-equilibrium/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://mengqingxuan0808.github.io" target="_blank">轩的博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%89%A9%E7%90%86/">物理</a><a class="post-meta__tags" href="/tags/%E5%8F%97%E5%8A%9B%E5%88%86%E6%9E%90/">受力分析</a></div><div class="post-share"><div class="social-share" data-image="/img/avatar.webp" data-sites="wechat,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/11/01/first-post/" title="My first word"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">My first word</div></div><div class="info-2"><div class="info-item-1">记录自己的daily life.</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">轩</div><div class="author-info-description">轩的个人博客，记录高中日常与那些冒出来的奇思妙想。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/mengqingxuan0808"><i class="fab fa-github"></i><span>GitHub</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">记录苦逼的高中日常，以及那些冒出来的奇思妙想。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%85%88%E8%AE%B0%E4%BD%8F%E4%B8%89%E4%B8%AA%E5%9F%BA%E6%9C%AC%E4%BA%8B%E5%AE%9E"><span class="toc-number">1.</span> <span class="toc-text">一、先记住三个基本事实</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%B8%83%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%B1%BB%E5%9E%8B"><span class="toc-number">2.</span> <span class="toc-text">二、七种常见类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-1%EF%BC%9A%E5%9B%BE%E8%A7%A3%E6%B3%95%EF%BC%88%E4%B8%80%E5%8A%9B%E6%81%92%E5%AE%9A-%E4%B8%80%E5%8A%9B%E6%96%B9%E5%90%91%E4%B8%8D%E5%8F%98%EF%BC%89"><span class="toc-number">2.1.</span> <span class="toc-text">类型 1：图解法（一力恒定 + 一力方向不变）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-2%EF%BC%9A%E7%9B%B8%E4%BC%BC%E4%B8%89%E8%A7%92%E5%BD%A2%E6%B3%95"><span class="toc-number">2.2.</span> <span class="toc-text">类型 2：相似三角形法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-3%EF%BC%9A%E8%BE%85%E5%8A%A9%E5%9C%86%E6%B3%95%EF%BC%88%E4%B8%A4%E5%8A%9B%E5%A4%B9%E8%A7%92%E4%B8%8D%E5%8F%98%EF%BC%89"><span class="toc-number">2.3.</span> <span class="toc-text">类型 3：辅助圆法（两力夹角不变）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-4%EF%BC%9A%E8%A7%A3%E6%9E%90%E6%B3%95%EF%BC%88%E5%88%97%E5%87%BD%E6%95%B0%E6%B1%82%E6%9E%81%E5%80%BC%EF%BC%89"><span class="toc-number">2.4.</span> <span class="toc-text">类型 4：解析法（列函数求极值）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-5%EF%BC%9A%E6%95%B4%E4%BD%93%E6%B3%95%E4%B8%8E%E9%9A%94%E7%A6%BB%E6%B3%95"><span class="toc-number">2.5.</span> <span class="toc-text">类型 5：整体法与隔离法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-6%EF%BC%9A%E4%B8%B4%E7%95%8C%E4%B8%8E%E6%9E%81%E5%80%BC"><span class="toc-number">2.6.</span> <span class="toc-text">类型 6：临界与极值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-7%EF%BC%9A%E5%8A%9B%E7%9F%A9%E5%B9%B3%E8%A1%A1%EF%BC%88%E6%9D%A0%E6%9D%86%E7%B1%BB%EF%BC%89"><span class="toc-number">2.7.</span> <span class="toc-text">类型 7：力矩平衡（杠杆类）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E4%B8%80%E9%81%93%E4%BE%8B%E9%A2%98%EF%BC%88%E7%9B%B8%E4%BC%BC%E4%B8%89%E8%A7%92%E5%BD%A2%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">三、一道例题（相似三角形）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E9%80%9A%E7%94%A8%E8%A7%A3%E9%A2%98%E6%B5%81%E7%A8%8B"><span class="toc-number">4.</span> <span class="toc-text">四、通用解题流程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E5%87%A0%E4%B8%AA%E5%AE%B9%E6%98%93%E8%B8%A9%E7%9A%84%E5%9D%91"><span class="toc-number">5.</span> <span class="toc-text">五、几个容易踩的坑</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/02/physics-dynamic-equilibrium/" title="高中物理 · 动态平衡的七种常见类型">高中物理 · 动态平衡的七种常见类型</a><time datetime="2026-11-02T14:20:00.000Z" title="发表于 2026-11-02 22:20:00">2026-11-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/01/first-post/" title="My first word">My first word</a><time datetime="2026-11-01T05:40:00.000Z" title="发表于 2026-11-01 13:40:00">2026-11-01</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.1.260810</a></span></div><div class="footer_custom_text">© 2026 轩 & 小蓝</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.1.260810"></script><script src="/js/main.js?v=5.7.1.260810"></script><div class="js-pjax"></div><script src="/js/daily-quote.js" defer></script><script src="/js/mobile-nav.js" defer></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.1.260810"></script></div></div></body></html>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://mengqingxuan0808.github.io">轩</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://mengqingxuan0808.github.io/2026/11/02/physics-dynamic-equilibrium/">https://mengqingxuan0808.github.io/2026/11/02/physics-dynamic-equilibrium/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://mengqingxuan0808.github.io" target="_blank">轩的博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%89%A9%E7%90%86/">物理</a><a class="post-meta__tags" href="/tags/%E5%8F%97%E5%8A%9B%E5%88%86%E6%9E%90/">受力分析</a></div><div class="post-share"><div class="social-share" data-image="/img/avatar.webp" data-sites="wechat,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/11/01/first-post/" title="My first word"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">My first word</div></div><div class="info-2"><div class="info-item-1">记录自己的daily life.</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">轩</div><div class="author-info-description">轩的个人博客，记录高中日常与那些冒出来的奇思妙想。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/mengqingxuan0808"><i class="fab fa-github"></i><span>GitHub</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">记录苦逼的高中日常，以及那些冒出来的奇思妙想。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%85%88%E8%AE%B0%E4%BD%8F%E4%B8%89%E4%B8%AA%E5%9F%BA%E6%9C%AC%E4%BA%8B%E5%AE%9E"><span class="toc-number">1.</span> <span class="toc-text">一、先记住三个基本事实</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%B8%83%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%B1%BB%E5%9E%8B"><span class="toc-number">2.</span> <span class="toc-text">二、七种常见类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-1%EF%BC%9A%E5%9B%BE%E8%A7%A3%E6%B3%95%EF%BC%88%E4%B8%80%E5%8A%9B%E6%81%92%E5%AE%9A-%E4%B8%80%E5%8A%9B%E6%96%B9%E5%90%91%E4%B8%8D%E5%8F%98%EF%BC%89"><span class="toc-number">2.1.</span> <span class="toc-text">类型 1：图解法（一力恒定 + 一力方向不变）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-2%EF%BC%9A%E7%9B%B8%E4%BC%BC%E4%B8%89%E8%A7%92%E5%BD%A2%E6%B3%95"><span class="toc-number">2.2.</span> <span class="toc-text">类型 2：相似三角形法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-3%EF%BC%9A%E8%BE%85%E5%8A%A9%E5%9C%86%E6%B3%95%EF%BC%88%E4%B8%A4%E5%8A%9B%E5%A4%B9%E8%A7%92%E4%B8%8D%E5%8F%98%EF%BC%89"><span class="toc-number">2.3.</span> <span class="toc-text">类型 3：辅助圆法（两力夹角不变）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-4%EF%BC%9A%E8%A7%A3%E6%9E%90%E6%B3%95%EF%BC%88%E5%88%97%E5%87%BD%E6%95%B0%E6%B1%82%E6%9E%81%E5%80%BC%EF%BC%89"><span class="toc-number">2.4.</span> <span class="toc-text">类型 4：解析法（列函数求极值）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-5%EF%BC%9A%E6%95%B4%E4%BD%93%E6%B3%95%E4%B8%8E%E9%9A%94%E7%A6%BB%E6%B3%95"><span class="toc-number">2.5.</span> <span class="toc-text">类型 5：整体法与隔离法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-6%EF%BC%9A%E4%B8%B4%E7%95%8C%E4%B8%8E%E6%9E%81%E5%80%BC"><span class="toc-number">2.6.</span> <span class="toc-text">类型 6：临界与极值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B-7%EF%BC%9A%E5%8A%9B%E7%9F%A9%E5%B9%B3%E8%A1%A1%EF%BC%88%E6%9D%A0%E6%9D%86%E7%B1%BB%EF%BC%89"><span class="toc-number">2.7.</span> <span class="toc-text">类型 7：力矩平衡（杠杆类）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E4%B8%80%E9%81%93%E4%BE%8B%E9%A2%98%EF%BC%88%E7%9B%B8%E4%BC%BC%E4%B8%89%E8%A7%92%E5%BD%A2%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">三、一道例题（相似三角形）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E9%80%9A%E7%94%A8%E8%A7%A3%E9%A2%98%E6%B5%81%E7%A8%8B"><span class="toc-number">4.</span> <span class="toc-text">四、通用解题流程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E5%87%A0%E4%B8%AA%E5%AE%B9%E6%98%93%E8%B8%A9%E7%9A%84%E5%9D%91"><span class="toc-number">5.</span> <span class="toc-text">五、几个容易踩的坑</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/02/physics-dynamic-equilibrium/" title="高中物理 · 动态平衡的七种常见类型">高中物理 · 动态平衡的七种常见类型</a><time datetime="2026-11-02T14:20:00.000Z" title="发表于 2026-11-02 22:20:00">2026-11-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/01/first-post/" title="My first word">My first word</a><time datetime="2026-11-01T05:40:00.000Z" title="发表于 2026-11-01 13:40:00">2026-11-01</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.1.260810</a></span></div><div class="footer_custom_text">© 2026 轩 & 小蓝</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.1.260810"></script><script src="/js/main.js?v=5.7.1.260810"></script><div class="js-pjax"><script>(() => {
+  const changeScriptToMath = article => {
+    article.querySelectorAll('script[type^="math/tex"]').forEach(el => {
+      const display = /mode=display/.test(el.type)
+      const node = document.createElement(display ? 'div' : 'span')
+      node.textContent = display
+        ? `$$${el.textContent}$$`
+        : `$${el.textContent}$`
+      el.parentNode.replaceChild(node, el)
+    })
+  }
+
+  const loadMathjax = () => {
+    const article = document.getElementById('article-container')
+    if (!article || article.querySelector('.hbe-container')) return
+    changeScriptToMath(article)
+
+    if (!window.MathJax) {
+      window.MathJax = {
+        loader: {
+          load: [
+            // Four font extension packages (optional)
+            //- '[tex]/bbm',
+            //- '[tex]/bboldx',
+            //- '[tex]/dsfont',
+            '[tex]/mhchem',
+            'ui/lazy'
+          ],
+          paths: {
+            'mathjax-newcm': '[mathjax]/../@mathjax/mathjax-newcm-font',
+
+            //- // Four font extension packages (optional)
+            //- 'mathjax-bbm-extension': '[mathjax]/../@mathjax/mathjax-bbm-font-extension',
+            //- 'mathjax-bboldx-extension': '[mathjax]/../@mathjax/mathjax-bboldx-font-extension',
+            //- 'mathjax-dsfont-extension': '[mathjax]/../@mathjax/mathjax-dsfont-font-extension',
+            'mathjax-mhchem-extension': '[mathjax]/../@mathjax/mathjax-mhchem-font-extension'
+          }
+        },
+        output: {
+          font: 'mathjax-newcm',
+        },
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          tags: 'none',
+          packages: {
+            '[+]': [
+              'mhchem'
+            ]
+          }
+        },
+        chtml: {
+          scale: 1.1
+        },
+        options: {
+          lazyMargin: '200px',
+          enableMenu: true,
+          menuOptions: {
+            settings: {
+              enrich: false  // Turn off Braille and voice narration text automatic generation
+            }
+          },
+        }
+      }
+
+      const script = document.createElement('script')
+      script.src = 'https://cdn.jsdelivr.net/npm/mathjax@4.1.3/tex-mml-chtml.min.js'
+      script.id = 'MathJax-script'
+      script.async = true
+      document.head.appendChild(script)
+    } else {
+      MathJax.typesetClear()
+      MathJax.typesetPromise([ article ])
+    }
+  }
+
+  btf.addGlobalFn('encrypt', loadMathjax, 'mathjax')
+  if (window.pjax) loadMathjax()
+  else if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', loadMathjax)
+  else loadMathjax()
+})()</script></div><script src="/js/daily-quote.js" defer></script><script src="/js/mobile-nav.js" defer></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.1.260810"></script></div></div></body></html>
