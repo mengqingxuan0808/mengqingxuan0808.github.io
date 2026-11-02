@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>My first word</title>
+    <url>/2026/11/01/first-post/</url>
+    <content><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>我是轩，一名普通的高中生。</p>
+<h2 id="为什么开始写博客"><a href="#为什么开始写博客" class="headerlink" title="为什么开始写博客"></a>为什么开始写博客</h2><p>一个自己的秘密空间哦。</p>
+<p>真的是天马星空，Just do it.</p>
+<h2 id="技术栈备忘"><a href="#技术栈备忘" class="headerlink" title="技术栈备忘"></a>技术栈备忘</h2><p>站点是 Hexo + Butterfly，托管在 GitHub Pages</p>
+<h2 id="总开始-2026-11-1"><a href="#总开始-2026-11-1" class="headerlink" title="总开始 2026 11 1"></a>总开始 2026 11 1</h2>]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>高中物理 · 动态平衡的七种常见类型</title>
     <url>/2026/11/02/physics-dynamic-equilibrium/</url>
     <content><![CDATA[<p>题目里出现「缓慢」「慢慢移动」「缓缓转到」这类词，基本就是在说：<strong>每个位置都可以当成静止</strong>，合力为零，但各力的大小、方向会随位置变化。这就是动态平衡。</p>
@@ -64,6 +76,9 @@
 <h2 id="三、一道例题（相似三角形）"><a href="#三、一道例题（相似三角形）" class="headerlink" title="三、一道例题（相似三角形）"></a>三、一道例题（相似三角形）</h2><blockquote>
 <p><strong>题目</strong>：光滑半球面半径为 R，小球用细绳系在球面最高点 A，绳长 L。缓慢拉绳使小球沿球面上移（L 逐渐变小），求绳的拉力 T 和支持力 N 如何变化。</p>
 </blockquote>
+<p><img src="/img/physics/dynamic-equilibrium.svg" alt="光滑球面上绳系小球：场景、几何三角形与力三角形"></p>
+<p style="text-align:center;font-size:.88em;opacity:.7;margin-top:-.6rem">① 场景　② 几何三角形 O-A-P　③ 与它相似的力三角形</p>
+
 <p><strong>受力分析</strong>：小球受三个力——重力 mg（竖直向下）、绳的拉力 T（沿绳指向 A）、球面支持力 N（沿半径向外）。三个力平衡，构成闭合三角形。</p>
 <p><strong>找相似</strong>：设球心为 O。几何三角形 O-A-P（P 为小球位置）三边为 OA &#x3D; R、OP &#x3D; R、AP &#x3D; L；而三个力分别平行于这三条边，所以力三角形与几何三角形相似。</p>
 <p><strong>列比例</strong>：</p>
@@ -100,18 +115,6 @@
       <tags>
         <tag>物理</tag>
         <tag>受力分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My first word</title>
-    <url>/2026/11/01/first-post/</url>
-    <content><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>我是轩，一名普通的高中生。</p>
-<h2 id="为什么开始写博客"><a href="#为什么开始写博客" class="headerlink" title="为什么开始写博客"></a>为什么开始写博客</h2><p>一个自己的秘密空间哦。</p>
-<p>真的是天马星空，Just do it.</p>
-<h2 id="技术栈备忘"><a href="#技术栈备忘" class="headerlink" title="技术栈备忘"></a>技术栈备忘</h2><p>站点是 Hexo + Butterfly，托管在 GitHub Pages</p>
-<h2 id="总开始-2026-11-1"><a href="#总开始-2026-11-1" class="headerlink" title="总开始 2026 11 1"></a>总开始 2026 11 1</h2>]]></content>
-      <tags>
-        <tag>随笔</tag>
       </tags>
   </entry>
 </search>
