@@ -114,3 +114,82 @@
     animation: none !important;
   }
 }
+/* 21) 首页视觉升级：发光渐变标题 + 毛玻璃卡片 + FPS 挂件 */
+
+/* 标题发光渐变 */
+#page-header #site-title {
+  background: linear-gradient(120deg, #b39dfb 0%, #f0abfc 34%, #fca5a5 62%, #fcd34d 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  text-shadow: none !important;
+  filter: drop-shadow(0 0 16px rgba(167, 139, 250, .55)) drop-shadow(0 0 36px rgba(252, 165, 165, .3));
+}
+
+/* 毛玻璃卡片（浅色） */
+.card-widget,
+.recent-post-item,
+#post,
+#page {
+  background: rgba(255, 255, 255, .72) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(1.1);
+  backdrop-filter: blur(12px) saturate(1.1);
+  border: 1px solid rgba(255, 255, 255, .65);
+  border-radius: 14px;
+}
+
+/* 毛玻璃卡片（深色） */
+[data-theme='dark'] .card-widget,
+[data-theme='dark'] .recent-post-item,
+[data-theme='dark'] #post,
+[data-theme='dark'] #page {
+  background: rgba(24, 26, 36, .62) !important;
+  border-color: rgba(255, 255, 255, .08);
+}
+
+/* FPS 挂件 */
+#fps-meter {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+  z-index: 100;
+  padding: 3px 10px;
+  font-size: 11px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, .85);
+  background: rgba(0, 0, 0, .35);
+  border-radius: 999px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #fps-meter { display: none; }
+}
+/* 22) 小屏隐藏 FPS 挂件，避免和菜单按钮/正文重叠 */
+@media (max-width: 768px) {
+  #fps-meter { display: none; }
+}
+/* 23) 手机端副标题换行与边距，避免被裁 */
+@media (max-width: 768px) {
+  #page-header #site-info {
+    padding: 0 18px !important;
+  }
+  #page-header #site-subtitle {
+    font-size: .82em !important;
+    line-height: 1.65 !important;
+    white-space: normal !important;
+    max-width: 86vw;
+    margin: 6px auto 0 !important;
+  }
+}
+/* 24) 照片背景上给标题和副标题加深色描边，保证可读性 */
+#page-header #site-subtitle {
+  text-shadow: 0 1px 6px rgba(0, 0, 0, .75), 0 0 22px rgba(0, 0, 0, .55) !important;
+}
+
+#page-header #site-title {
+  filter: drop-shadow(0 2px 10px rgba(0, 0, 0, .65)) drop-shadow(0 0 26px rgba(0, 0, 0, .45));
+}
