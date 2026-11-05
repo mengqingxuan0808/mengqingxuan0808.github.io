@@ -67,7 +67,7 @@ disable_top_img: false
 default_top_img: /images/banner.webp
 
 # The banner image of index page
-index_img: /images/banner.webp
+index_img: /images/banner-full.webp
 
 # The banner image of archive page
 archive_img:
@@ -146,11 +146,11 @@ post_meta:
 # The position of site info, eg: 300px/300em/300rem/10%
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem
-index_top_img_height: 420px
+index_top_img_height: 100vh
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -166,7 +166,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-
+    - 记录高中日常，也收留那些奇思妙想。
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
 # 2: Cover on the right, info on the left
@@ -793,7 +793,7 @@ text_align_justify: false
 
 # Add a mask to the header and footer
 mask:
-  header: false
+  header: true
   footer: true
 
 # Loading Animation
@@ -1062,6 +1062,7 @@ inject:
   bottom:
     - <script src="/js/daily-quote.js" defer></script>
     - <script src="/js/mobile-nav.js" defer></script>
+    - <script src="/js/fps.js" defer></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
